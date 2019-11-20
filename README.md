@@ -112,3 +112,9 @@ VALUES
 #### Home Page
 
 ![](https://github.com/koyenadas/SpringClientDashboard/blob/master/HomePage.png)
+
+#### Register New User
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/Register.png)
+
+#### Successful Registration
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/Successful%20Registration.png)
