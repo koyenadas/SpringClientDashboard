@@ -41,7 +41,8 @@ Prerequisites: Eclipse IDE, Tomcat, MySQL Community Edition
 `$ git clone https://github.com/koyenadas/SpringClientDashboard`
 
 2. Open MySQL Workbench and type following SQL scripts:
-	```mysql CREATE DATABASE  IF NOT EXISTS `web_customer_tracker`;
+``` mysql 
+CREATE DATABASE  IF NOT EXISTS `web_customer_tracker`;
 USE `web_customer_tracker`;
 
 DROP TABLE IF EXISTS `customer`;
@@ -62,6 +63,43 @@ INSERT INTO `customer` VALUES
 	(3,'Jim','Moriarty','moriarty@rememberme.com');
 
 UNLOCK TABLES;
+```
+
+``` mysql 
+DROP DATABASE  IF EXISTS `spring_security_demo_bcrypt`;
+
+CREATE DATABASE  IF NOT EXISTS `spring_security_demo_bcrypt`;
+USE `spring_security_demo_bcrypt`;
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+  `username` varchar(50) NOT NULL,
+  `password` char(68) NOT NULL,
+  `enabled` tinyint(1) NOT NULL,
+  PRIMARY KEY (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `users` 
+VALUES 
+('sachin','{bcrypt}$2a$04$eFytJDGtjbThXa80FyOOBuFdK2IwjyWefYkMpiBEFlpBwDH.5PM0K',1),
+('sweta','{bcrypt}$2a$04$eFytJDGtjbThXa80FyOOBuFdK2IwjyWefYkMpiBEFlpBwDH.5PM0K',1),
+('koyena','{bcrypt}$2a$04$eFytJDGtjbThXa80FyOOBuFdK2IwjyWefYkMpiBEFlpBwDH.5PM0K',1);
+
+DROP TABLE IF EXISTS `authorities`;
+CREATE TABLE `authorities` (
+  `username` varchar(50) NOT NULL,
+  `authority` varchar(50) NOT NULL,
+  UNIQUE KEY `authorities_idx_1` (`username`,`authority`),
+  CONSTRAINT `authorities_ibfk_1` FOREIGN KEY (`username`) REFERENCES `users` (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `authorities` 
+VALUES 
+('sachin','ROLE_EMPLOYEE'),
+('sweta','ROLE_EMPLOYEE'),
+('sweta','ROLE_MANAGER'),
+('koyena','ROLE_EMPLOYEE'),
+('koyena','ROLE_ADMIN');
 
 ```
 
