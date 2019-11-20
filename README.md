@@ -107,7 +107,7 @@ VALUES
 
 4. The application will avaialble under URL http://localhost:8080/dashboard
 
-## Application Snapshots
+## Application Snapshots (Customer Journey)
 
 #### Home Page
 
@@ -118,3 +118,48 @@ VALUES
 
 #### Successful Registration
 ![](https://github.com/koyenadas/SpringClientDashboard/blob/master/Successful%20Registration.png)
+
+#### Login with New Registered User
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/EmployeeLogin.png)
+
+#### Client Dashboard for user with "Employee" access
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/EmployeeUser.png)
+
+#### Search for Client
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/SearchJack.png)
+
+#### Search result
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/FindJack.png)
+
+#### Manager Login
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/ManagerLogin.png)
+
+#### Client Dashboard for user with "Manager" access
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/ManagerListing.png)
+
+#### Form Validation while adding new Client
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/FormValidation.png)
+
+#### Adding a New Client
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/AddUser.png)
+
+#### CLient Successfully Added
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/UserAddded.png)
+
+#### Changes reflected in SQL Workbench
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/Workbench.png)
+
+#### Updating an Existing Client
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/ManagerUpdate.png)
+
+#### CLient Successfully Updated
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/UserUpdate.png)
+
+#### Admin Login
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/AdminLogin.png)
+
+#### Client Dashboard for user with "Admin" access
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/AdminListing.png)
+
+#### Client Successfully Deleted
+![](https://github.com/koyenadas/SpringClientDashboard/blob/master/DeletedClient.png)
