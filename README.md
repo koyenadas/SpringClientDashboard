@@ -105,7 +105,7 @@ VALUES
 
 3. Right click project name -> Run on server
 
-4. The application will avaialble under URL http://localhost:8080/dashboard
+4. The application will be avaialble under URL http://localhost:8080/dashboard
 
 ## Application Snapshots (Customer Journey)
 
@@ -143,7 +143,7 @@ VALUES
 #### Adding a New Client
 ![](https://github.com/koyenadas/SpringClientDashboard/blob/master/AddUser.png)
 
-#### CLient Successfully Added
+#### Client Successfully Added
 ![](https://github.com/koyenadas/SpringClientDashboard/blob/master/UserAddded.png)
 
 #### Changes reflected in SQL Workbench
