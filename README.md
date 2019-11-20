@@ -107,3 +107,8 @@ VALUES
 
 4. The application will avaialble under URL http://localhost:8080/dashboard
 
+## Application Snapshots
+
+#### Home Page
+
+![image] (https://drive.google.com/uc?export=view&id=1zQ7CsmJz7uj4p8fFyuOhNgQnrJ-a_QAw)
